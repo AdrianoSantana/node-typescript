@@ -3,6 +3,7 @@ import Cors from "cors";
 import routes from './routes';
 import AppError from "@shared/errors/AppError";
 import STATUSCODE from "@shared/status_code";
+import '@shared/typeorm'
 
 const app = Express();
 
